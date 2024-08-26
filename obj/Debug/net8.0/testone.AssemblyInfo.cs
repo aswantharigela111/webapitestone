@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("testone")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c63778c8e0e0b64cbbf669585ab08af0d23cc65b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13613a27528bca3b3371ee53095a12dfd459c82d")]
 [assembly: System.Reflection.AssemblyProductAttribute("testone")]
 [assembly: System.Reflection.AssemblyTitleAttribute("testone")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

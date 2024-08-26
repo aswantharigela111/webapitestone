@@ -50,32 +50,32 @@ namespace testone.Controllers
         parameters in the route template are matched. The syntax to use Route Constraints is: {parameter:constraint}
          */
 
-        [Route("{EmployeeName:alpha:minlength(5):maxlength(10)}")]
-        [HttpGet]
-        public string GetEmployeeDetails(string EmployeeName)
-        {
-            return $"Response from GetEmployeeDetails Method, EmployeeName : {EmployeeName}";
-        }
+        //[Route("{EmployeeName:alpha:minlength(5):maxlength(10)}")]
+        //[HttpGet]
+        //public string GetEmployeeDetails(string EmployeeName)
+        //{
+        //    return $"Response from GetEmployeeDetails Method, EmployeeName : {EmployeeName}";
+        //}
 
-        [Route("{EmployeeName:alpha:length(5)}")]
-        [HttpGet]
-        public string GetEmployeeDetails2(string EmployeeName)
-        {
-            return $"Response from GetEmployeeDetails Method, EmployeeName : {EmployeeName}";
-        }
+        //[Route("{EmployeeName:alpha:length(5)}")]
+        //[HttpGet]
+        //public string GetEmployeeDetails2(string EmployeeName)
+        //{
+        //    return $"Response from GetEmployeeDetails Method, EmployeeName : {EmployeeName}";
+        //}
 
-        [Route("{EmployeeName:regex(a(b|c))}")]
-        [HttpGet]
-        public string GetEmployeeDetails3(string EmployeeName)
-        {
-            return $"Response from GetEmployeeDetails Method, EmployeeName : {EmployeeName}";
-        }
+        //[Route("{EmployeeName:regex(a(b|c))}")]
+        //[HttpGet]
+        //public string GetEmployeeDetails3(string EmployeeName)
+        //{
+        //    return $"Response from GetEmployeeDetails Method, EmployeeName : {EmployeeName}";
+        //}
 
-        [HttpGet("{EmployeeId:int}")]
-        public string GetEmployeeDetails4(int EmployeeId)
-        {
-            return $"Response from GetEmployeeDetails Method, EmployeeId : {EmployeeId}";
-        }
+        //[HttpGet("{EmployeeId:int}")]
+        //public string GetEmployeeDetails4(int EmployeeId)
+        //{
+        //    return $"Response from GetEmployeeDetails Method, EmployeeId : {EmployeeId}";
+        //}
 
         /*Advantages of Using Route Constraints in ASP.NET Core Web API
             Validation at Routing Level: Route constraints validate requests before they reach the action method, potentially reducing unnecessary processing for invalid requests.
